@@ -10,9 +10,9 @@ Welcome to this toturial on how to create a telegram bot using python in 3 easy 
 
 - Step 2: 
   Download the code I provided in this repository and put your own BOT_NAME and API_KEY <br>
-  Run <br>
+  On your terminal, run: <br>
   ```pip3 install python-telegram-bot``` <br>
-  Run the code starting from line 63 (if __name__ == '__main__':)
+  Lastly: run the code starting from line 63 (if __name__ == '__main__':)
 
 - Step 3 (optional)
   Go to www.pythonanywhere.com and upload your code as a new file to make it run forever for FREE (So that you can close your machine and sleep in peace)
