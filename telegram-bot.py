@@ -45,6 +45,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f'User ({update.message.from_user.username}) in {message_type}: "{text}"')
 
     if message_type == 'group' or message_type == 'supergroup':
+        # I have added this line to make make the bot replies to messages only if it's mentioned. Otherwise it won't
+        # Erasing this if statement will allow the bot to reply to any message it sees (not recommended)
         if BOT_USERNAME in text:
             new_text: str = text.replace(BOT_USERNAME, '').strip()
             response: str = handle_response(new_text)
