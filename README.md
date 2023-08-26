@@ -1,4 +1,4 @@
-# Pyhton + Telegram 💯
+# Pyhton + Telegram Bot 💯
 Welcome to this toturial on how to create a telegram bot using python in 3 easy steps! 
 
 - Step 1: Create you API key
