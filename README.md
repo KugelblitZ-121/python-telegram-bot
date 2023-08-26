@@ -5,13 +5,13 @@ Welcome to this toturial on how to create a telegram bot using python in 3 easy 
   in this step, all you gotta do is to go to telegram and search for: BotFather
   ![image](https://github.com/KugelblitZ-121/python-telegram-bot/assets/82136584/49e81eaf-a0ee-42d2-b235-7116fef1241f)
 
-  Start the bot and choose /newbot to create you API_KEY that you  will use in the python script.
+  Start the bot and choose /newbot to create you API_KEY that you  will use in the python script. <br>
   You will have many options to control your baby bot like /setdescription /setabouttext etc. It's so easy and straight forward.
 
 - Step 2: 
-  Download the code I provided in this repository and put your own BOT_NAME and API_KEY
+  Download the code I provided in this repository and put your own BOT_NAME and API_KEY <br>
   Run <br>
-  ```pip3 install python-telegram-bot```
+  ```pip3 install python-telegram-bot``` <br>
   Run the code starting from line 63 (if __name__ == '__main__':)
 
 - Step 3 (optional)
